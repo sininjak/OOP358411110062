@@ -18,7 +18,7 @@ public class Quiz1_BMI {
             //Test condition
         if (bmi>=18.50)
             System.out.println("ผอม");
-        else if (bmi>=18.60&&bmi<=22.90)
+        else if (bmi<=18.60&&bmi<=22.90)
             System.out.println("ปกติ");
         else if (bmi>=23&&bmi<=24.90)
             System.out.println("ท้วม");
